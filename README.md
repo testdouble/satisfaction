@@ -1,4 +1,5 @@
 # Satisfaction
+[![CircleCI](https://circleci.com/gh/larquin/satisfaction.svg?style=svg)](https://circleci.com/gh/larquin/satisfaction)
 
 Track your level of happiness with your work via commit messages.
 
