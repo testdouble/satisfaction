@@ -1,2 +1,3 @@
 # satisfaction
-Satisfaction tracker for your work!
+
+Track your level of happiness with your work via commit messages. 
