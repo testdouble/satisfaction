@@ -10,7 +10,7 @@ RSpec.describe Satisfacts do
          'negative' => 0,
          'compound' => 0.7096}
     ]
-    allow_any_instance_of(Satisfacts::Transmit).to receive(:commit).and_return(:status_code => 200, :body => @sentiment_result)
+    allow(Satisfacts::Transmit).to receive(:commit).and_return(:status_code => 200, :body => @sentiment_result)
   end
 
   it 'can transmit a sentiment to satisfacts' do
