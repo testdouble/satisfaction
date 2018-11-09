@@ -1,8 +1,7 @@
 require 'bundler/setup'
 require 'satisfaction'
-require 'satisfacts'
-
 require 'dotenv'
+
 Dotenv.load
 
 RSpec.configure do |config|

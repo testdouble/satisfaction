@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-RSpec.describe Satisfacts do
+RSpec.describe Satisfaction::Transmit do
   before do
     @commit_message = 'a happy commit message'
     @sentiment_result = [
@@ -10,11 +10,11 @@ RSpec.describe Satisfacts do
          'negative' => 0,
          'compound' => 0.7096}
     ]
-    allow(Satisfacts::Transmit).to receive(:commit).and_return(:status_code => 200, :body => @sentiment_result)
+    allow(Satisfaction::Transmit).to receive(:commit).and_return(:status_code => 200, :body => @sentiment_result)
   end
 
   it 'can transmit a sentiment to satisfacts' do
-    res = Satisfacts::Transmit.commit(@commit_message)
+    res = Satisfaction::Transmit.commit(@commit_message)
     expect(res[:status_code]).to eq(200)
     expect(res[:body]).to eq(@sentiment_result)
   end

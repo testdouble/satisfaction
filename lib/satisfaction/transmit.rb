@@ -1,7 +1,7 @@
 require 'faraday'
 require 'json'
 
-module Satisfacts
+module Satisfaction
   # Transmits data to the satisfacts server
   class Transmit
     class << self

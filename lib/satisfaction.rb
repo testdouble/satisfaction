@@ -1,4 +1,6 @@
 require "satisfaction/version"
+require "satisfaction/transmit"
+require "satisfaction/validate"
 require "dotenv"
 
 Dotenv.load
