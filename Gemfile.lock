@@ -3,6 +3,7 @@ PATH
   specs:
     satisfaction (0.1.0)
       dotenv
+      faraday
       gemoji
 
 GEM
@@ -11,8 +12,11 @@ GEM
     ast (2.4.0)
     diff-lcs (1.3)
     dotenv (2.5.0)
+    faraday (0.15.3)
+      multipart-post (>= 1.2, < 3)
     gemoji (3.0.0)
     jaro_winkler (1.5.1)
+    multipart-post (2.0.0)
     parallel (1.12.1)
     parser (2.5.3.0)
       ast (~> 2.4.0)
