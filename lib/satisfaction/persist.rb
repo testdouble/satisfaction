@@ -1,4 +1,4 @@
-module Store
+module Satisfaction
   class Persist
   end
 end
