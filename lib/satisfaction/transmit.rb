@@ -1,17 +1,17 @@
-require 'faraday'
-require 'json'
+require "faraday"
+require "json"
 
 module Satisfaction
   # Transmits data to the satisfacts server
   class Transmit
     class << self
       def commit(message)
-        res = connect.post do |req|
+        res = connect.post { |req|
           req.url "/test"
-          req.headers['Content-Type'] = 'application/json'
+          req.headers["Content-Type"] = "application/json"
           req.body = {:commit => message}.to_json
-        end
-        { :status_code => res.status, :body => JSON.parse(res.body) }
+        }
+        {:status_code => res.status, :body => JSON.parse(res.body)}
       end
 
       def connect
@@ -20,4 +20,3 @@ module Satisfaction
     end
   end
 end
-
