@@ -1,4 +1,3 @@
-require "json-schema"
 require "json"
 
 module Satisfaction

@@ -1,6 +1,8 @@
 require "satisfaction/version"
 require "satisfaction/transmit"
 require "satisfaction/schema"
+require "satisfaction/validator"
+require "satisfaction/persist"
 require "dotenv"
 
 Dotenv.load
