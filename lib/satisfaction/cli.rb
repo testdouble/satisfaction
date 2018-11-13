@@ -6,5 +6,4 @@ module Satisfaction
       end
     end
   end
-
 end

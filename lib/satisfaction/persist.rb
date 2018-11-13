@@ -1,4 +1,4 @@
-require 'fileutils'
+require "fileutils"
 
 module Satisfaction
   class Persist
@@ -14,9 +14,8 @@ module Satisfaction
       def sentiment_path(sha)
         sentiment = "#{default_path}/#{Time.now.strftime("%m_%d_%Y")}/"
         FileUtils.mkdir_p sentiment
-        return "#{sentiment}/#{sha}.json"
+        "#{sentiment}/#{sha}.json"
       end
-
     end
   end
 end
