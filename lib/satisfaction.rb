@@ -1,3 +1,4 @@
+require "satisfaction/cli"
 require "satisfaction/version"
 require "satisfaction/transmit"
 require "satisfaction/schema"
