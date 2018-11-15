@@ -1,5 +1,6 @@
 # Satisfaction
 [![CircleCI](https://circleci.com/gh/larquin/satisfaction.svg?style=svg)](https://circleci.com/gh/larquin/satisfaction)
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://github.com/testdouble/standard)
 
 Track your level of happiness with your work via commit messages.
 

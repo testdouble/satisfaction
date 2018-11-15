@@ -1,0 +1,113 @@
+{
+  "type": "object",
+  "required": [
+    "sha",
+    "commitMessage",
+    "score",
+    "tags"
+  ],
+  "properties": {
+    "sha": {
+      "$id": "#/properties/sha",
+      "type": "string",
+      "title": "The Sha Schema",
+      "default": "",
+      "examples": [
+        "99358189915d8719e160afcaafaa06078323b603"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "commitMessage": {
+      "$id": "#/properties/commitMessage",
+      "type": "string",
+      "title": "The Commitmessage Schema",
+      "default": "",
+      "examples": [
+        "I love example schemas"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "score": {
+      "$id": "#/properties/score",
+      "type": "array",
+      "title": "The Score Schema",
+      "items": {
+        "$id": "#/properties/score/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "positive",
+          "neutral",
+          "sentence",
+          "negative",
+          "compound"
+        ],
+        "properties": {
+          "positive": {
+            "$id": "#/properties/score/items/properties/positive",
+            "type": "number",
+            "title": "The Positive Schema",
+            "default": 0.0,
+            "examples": [
+              0.677
+            ]
+          },
+          "neutral": {
+            "$id": "#/properties/score/items/properties/neutral",
+            "type": "number",
+            "title": "The Neutral Schema",
+            "default": 0.0,
+            "examples": [
+              0.323
+            ]
+          },
+          "sentence": {
+            "$id": "#/properties/score/items/properties/sentence",
+            "type": "string",
+            "title": "The Sentence Schema",
+            "default": "",
+            "examples": [
+              "I love example schemas"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "negative": {
+            "$id": "#/properties/score/items/properties/negative",
+            "type": "integer",
+            "title": "The Negative Schema",
+            "default": 0,
+            "examples": [
+              0
+            ]
+          },
+          "compound": {
+            "$id": "#/properties/score/items/properties/compound",
+            "type": "number",
+            "title": "The Compound Schema",
+            "default": 0.0,
+            "examples": [
+              0.6369
+            ]
+          }
+        }
+      }
+    },
+    "tags": {
+      "$id": "#/properties/tags",
+      "type": "array",
+      "title": "The Tags Schema",
+      "items": {
+        "$id": "#/properties/tags/items",
+        "type": "string",
+        "title": "The Items Schema",
+        "default": "",
+        "examples": [
+          "#yay",
+          ":expressionless",
+          "#meh"
+        ],
+        "pattern": "^(.*)$"
+      }
+    }
+  }
+}
