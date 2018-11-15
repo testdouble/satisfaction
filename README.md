@@ -1,8 +1,8 @@
 # Satisfaction
-[![CircleCI](https://circleci.com/gh/larquin/satisfaction.svg?style=svg)](https://circleci.com/gh/larquin/satisfaction)
+[![CircleCI](https://circleci.com/gh/testdouble/satisfaction.svg?style=svg)](https://circleci.com/gh/testdouble/satisfaction)
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://github.com/testdouble/standard)
 
-Track your level of happiness with your work via commit messages.
+Satisfaction tracks sentiments in your commit history to analyze your overall level of satisfaction with your work.
 
 ## Installation
 
@@ -32,7 +32,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/larquin/satisfaction. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/testdouble/satisfaction. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -40,4 +40,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Satisfaction project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/larquin/satisfaction/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Satisfaction project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/testdouble/satisfaction/blob/master/CODE_OF_CONDUCT.md).
