@@ -5,13 +5,19 @@ module Satisfaction
   # Transmits data to the satisfacts server
   class Transmit
     class << self
-      def commit(message)
+      def sentiment(message)
         res = connect.post { |req|
           req.url "/test"
           req.headers["Content-Type"] = "application/json"
           req.body = {:commit => message}.to_json
         }
         {:status_code => res.status, :body => JSON.parse(res.body)}
+      end
+
+      def bulk(messages)
+        messages.collect do |message|
+          commit(message)
+        end
       end
 
       def connect

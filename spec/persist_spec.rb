@@ -1,27 +1,29 @@
 require "spec_helper"
 
 RSpec.describe Satisfaction::Persist do
-  before do
-    @payload = {
-      "sha" => "testSHA",
-      "commitMessage" => "a happy commit message",
-      "score" => [
-        {"positive" => 0.855,
-         "neutral" => 0.145,
-         "sentence" => "a happy commit message",
-         "negative" => 0,
-         "compound" => 0.7096,},
-      ],
-      "tags" => ["yay", "fun", "test"],
+  let(:payload) do
+    {
+        "sha" => "testSHA",
+        "commitMessage" => "a happy commit message",
+        "score" => [
+            {"positive" => 0.855,
+             "neutral" => 0.145,
+             "sentence" => "a happy commit message",
+             "negative" => 0,
+             "compound" => 0.7096, },
+        ],
+        "tags" => ["yay", "fun", "test"],
     }
-    @sha = "testSHA"
-    @schema = Satisfaction::Schema.new.schemas.first
   end
+  let(:sha) {"testSHA"}
+  let(:path) {File.join(__dir__, "../data")}
+  let(:schema) {Satisfaction::Schema.new.schemas.first}
+
+  subject {Satisfaction::Persist}
 
   it "saves sentiments to the default location" do
-    subject = Satisfaction::Persist
-    subject.store(@schema, @payload, @sha)
-    result = JSON.parse(File.read(subject.sentiment_path(@sha)))
-    expect(result).to eq(@payload)
+    subject.store(schema, payload, sha, path)
+    result = JSON.parse(File.read(subject.sentiment_path(sha, path)))
+    expect(result).to eq(payload)
   end
 end

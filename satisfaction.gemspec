@@ -35,6 +35,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "dotenv"
   spec.add_dependency "faraday"
   spec.add_dependency "gemoji"
+  spec.add_dependency "git"
   spec.add_dependency "json-schema"
   spec.add_dependency "thor"
   spec.add_dependency "sinatra"

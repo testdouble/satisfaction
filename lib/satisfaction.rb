@@ -1,4 +1,5 @@
 require "satisfaction/cli"
+require "satisfaction/client"
 require "satisfaction/version"
 require "satisfaction/transmit"
 require "satisfaction/schema"
@@ -10,5 +11,4 @@ Dotenv.load
 
 module Satisfaction
   class Error < StandardError; end
-  # Your code goes here...
 end

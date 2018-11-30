@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require "rubygems"
+require "satisfaction"
+require "git"
+
+
+sentiments = []
+
+ messages.each do |message|
+   sentiments << Satisfaction::Transmit.commit(message.strip)
+ end
+
+
+# Satisfaction::Persist.store()
