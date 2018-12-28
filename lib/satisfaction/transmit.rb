@@ -16,7 +16,7 @@ module Satisfaction
 
       def bulk(messages)
         messages.collect do |message|
-          commit(message)
+          sentiment(message)
         end
       end
 

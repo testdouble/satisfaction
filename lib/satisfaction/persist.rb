@@ -1,7 +1,7 @@
 require "fileutils"
 
 module Satisfaction
-  #Persists sentiments to a local store
+  # Persists sentiments to a local store
   class Persist
     class << self
       def store(schema, payload, sha, path)

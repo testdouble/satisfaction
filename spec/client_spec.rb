@@ -9,8 +9,7 @@ RSpec.describe Satisfaction::Client do
     expect(subject.client).to eq(git)
   end
 
-  it "can show all of the commit messages in history" do
-
+  it "can access git commits" do
+    expect(subject.messages.first).to eq(git.log.first.message)
   end
-
 end

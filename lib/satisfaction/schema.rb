@@ -1,7 +1,7 @@
 require "json"
 
 module Satisfaction
-  #loads Schemas for satisfacts results
+  # loads Schemas for satisfacts results
   class Schema
     attr_accessor :schemas
 

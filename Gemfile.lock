@@ -71,6 +71,7 @@ GEM
     thor (0.20.3)
     tilt (2.0.8)
     unicode-display_width (1.4.0)
+    vcr (4.0.0)
 
 PLATFORMS
   ruby
@@ -82,6 +83,7 @@ DEPENDENCIES
   rspec_junit_formatter
   satisfaction!
   standard (~> 0.0.7)
+  vcr (~> 4.0.0)
 
 BUNDLED WITH
    1.17.1

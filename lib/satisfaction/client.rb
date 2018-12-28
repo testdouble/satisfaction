@@ -8,8 +8,7 @@ module Satisfaction
     end
 
     def messages
-      @client.log.collect {|log| log.message }
+      @client.log.collect(&:message)
     end
-
   end
 end

@@ -3,16 +3,16 @@ require "spec_helper"
 RSpec.describe Satisfaction::Persist do
   let(:payload) do
     {
-        "sha" => "testSHA",
-        "commitMessage" => "a happy commit message",
-        "score" => [
-            {"positive" => 0.855,
-             "neutral" => 0.145,
-             "sentence" => "a happy commit message",
-             "negative" => 0,
-             "compound" => 0.7096, },
-        ],
-        "tags" => ["yay", "fun", "test"],
+      "sha" => "testSHA",
+      "commitMessage" => "a happy commit message",
+      "score" => [
+        {"positive" => 0.855,
+         "neutral" => 0.145,
+         "sentence" => "a happy commit message",
+         "negative" => 0,
+         "compound" => 0.7096,},
+      ],
+      "tags" => ["yay", "fun", "test"],
     }
   end
   let(:sha) {"testSHA"}
