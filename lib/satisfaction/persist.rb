@@ -9,7 +9,7 @@ module Satisfaction
       end
 
       def sentiment_path(sha, path)
-        sentiment = "#{path}/#{Time.now.strftime("%Y%m%dT%H%M")}"
+        sentiment = "#{path}/#{Time.now.strftime("%Y%m%d")}"
         FileUtils.mkdir_p sentiment
         "#{sentiment}/#{sha}.json"
       end

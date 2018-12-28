@@ -7,7 +7,7 @@
 /spec/reports/
 /tmp/
 /data/
-
+/bin/
 # rspec failure tracking
 .rspec_status
 

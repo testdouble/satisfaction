@@ -1,9 +1,11 @@
 require "spec_helper"
+require "securerandom"
 
 RSpec.describe Satisfaction::Persist do
+  let(:sha) { SecureRandom.hex }
   let(:payload) do
     {
-      "sha" => "testSHA",
+      "sha" => sha,
       "commitMessage" => "a happy commit message",
       "score" => [
         {"positive" => 0.855,
@@ -15,7 +17,7 @@ RSpec.describe Satisfaction::Persist do
       "tags" => ["yay", "fun", "test"],
     }
   end
-  let(:sha) {"testSHA"}
+
   let(:path) {File.join(__dir__, "../data")}
   let(:schema) {Satisfaction::Schema.new.schemas.first}
 
