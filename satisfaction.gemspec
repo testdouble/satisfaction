@@ -46,4 +46,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec_junit_formatter"
   spec.add_development_dependency "standard", "~> 0.0.7"
   spec.add_development_dependency "vcr", "~> 4.0.0"
+  spec.add_development_dependency "multi_json"
 end

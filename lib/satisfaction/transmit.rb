@@ -7,7 +7,7 @@ module Satisfaction
     class << self
       def sentiment(message)
         res = connect.post { |req|
-          req.url "/test"
+          req.url ENV["SENTIMENT_API_ENDPOINT"]
           req.headers["Content-Type"] = "application/json"
           req.body = {:commit => message}.to_json
         }
@@ -21,7 +21,7 @@ module Satisfaction
       end
 
       def connect
-        Faraday.new(:url => ENV["SENTIMENT_API_ENDPOINT"])
+        Faraday.new(:url => ENV["SENTIMENT_API_URL"])
       end
     end
   end

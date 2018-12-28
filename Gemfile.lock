@@ -25,6 +25,7 @@ GEM
     jaro_winkler (1.5.1)
     json-schema (2.8.1)
       addressable (>= 2.4)
+    multi_json (1.13.1)
     multipart-post (2.0.0)
     mustermann (1.0.3)
     parallel (1.12.1)
@@ -78,6 +79,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.17)
+  multi_json
   rake (~> 10.0)
   rspec (~> 3.0)
   rspec_junit_formatter

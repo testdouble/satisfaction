@@ -8,6 +8,7 @@ Dotenv.load
 VCR.configure do |config|
   config.cassette_library_dir = "fixtures/cassettes"
   config.hook_into :faraday
+  config.default_cassette_options = {:serialize_with => :json}
   config.configure_rspec_metadata!
 end
 

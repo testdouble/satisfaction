@@ -2,19 +2,21 @@ require "spec_helper"
 require "securerandom"
 
 RSpec.describe Satisfaction::Persist do
-  let(:sha) { SecureRandom.hex }
+  let(:sha) {SecureRandom.hex}
   let(:payload) do
     {
       "sha" => sha,
-      "commitMessage" => "a happy commit message",
-      "score" => [
-        {"positive" => 0.855,
-         "neutral" => 0.145,
-         "sentence" => "a happy commit message",
-         "negative" => 0,
-         "compound" => 0.7096,},
-      ],
-      "tags" => ["yay", "fun", "test"],
+      "message" => "a happy commit message",
+      "score" => {
+        "status_code" => 200,
+        "body" => [
+          {"positive" => 0.855,
+           "neutral" => 0.145,
+           "sentence" => "a happy commit message",
+           "negative" => 0,
+           "compound" => 0.7096,},
+        ],
+      },
     }
   end
 

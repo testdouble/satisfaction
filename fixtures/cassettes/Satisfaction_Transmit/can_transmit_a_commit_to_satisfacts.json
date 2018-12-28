@@ -1,0 +1,67 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://s12bf831f0.execute-api.us-west-2.amazonaws.com/test",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"commit\":\"a happy commit message\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v0.15.3"
+          ],
+          "Content-Type": [
+            "application/json"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "content-type": [
+            "application/json"
+          ],
+          "content-length": [
+            "112"
+          ],
+          "connection": [
+            "close"
+          ],
+          "date": [
+            "Fri, 28 Dec 2018 17:55:27 GMT"
+          ],
+          "x-amzn-requestid": [
+            "c21b8b2c-0ac9-11e9-8194-bba4b70b02f1"
+          ],
+          "x-amz-apigw-id": [
+            "SoR-YFSMPHcF_6g="
+          ],
+          "x-amzn-trace-id": [
+            "Root=1-5c26638f-c5a66978cdb1755b7a169e4b;Sampled=0"
+          ],
+          "x-cache": [
+            "Miss from cloudfront"
+          ],
+          "via": [
+            "1.1 0e00e4a51244e3761dee356d1ed0bb6a.cloudfront.net (CloudFront)"
+          ],
+          "x-amz-cf-id": [
+            "7q0sb7iQ1WmfvxdHu52wGewTQGlE8LnpGTVEIg-N3tNGEklxB-j24A=="
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "[{\"positive\": 0.855, \"neutral\": 0.145, \"sentence\": \"a happy commit message\", \"negative\": 0, \"compound\": 0.7096}]"
+        },
+        "http_version": null
+      },
+      "recorded_at": "Fri, 28 Dec 2018 17:55:27 GMT"
+    }
+  ],
+  "recorded_with": "VCR 4.0.0"
+}

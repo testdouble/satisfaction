@@ -1,0 +1,935 @@
+{
+  "http_interactions": [
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://s12bf831f0.execute-api.us-west-2.amazonaws.com/test",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"commit\":\"Reformat how we save commit sentiments\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v0.15.3"
+          ],
+          "Content-Type": [
+            "application/json"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "content-type": [
+            "application/json"
+          ],
+          "content-length": [
+            "128"
+          ],
+          "connection": [
+            "close"
+          ],
+          "date": [
+            "Fri, 28 Dec 2018 17:55:16 GMT"
+          ],
+          "x-amzn-requestid": [
+            "ba38a766-0ac9-11e9-a381-af13594a8ac7"
+          ],
+          "x-amz-apigw-id": [
+            "SoR8UGPVPHcF7Fw="
+          ],
+          "x-amzn-trace-id": [
+            "Root=1-5c266382-ed0bb9b195366c21f6cefb88;Sampled=0"
+          ],
+          "x-cache": [
+            "Miss from cloudfront"
+          ],
+          "via": [
+            "1.1 b7bda6e7794db75fcc11fe5733aa7ccc.cloudfront.net (CloudFront)"
+          ],
+          "x-amz-cf-id": [
+            "m3etIQVTKo630-iYgm2DU2O2gJktO43CaN8BLK3Nc1Nixrlj01AhnQ=="
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "[{\"positive\": 0.574, \"neutral\": 0.426, \"sentence\": \"Reformat how we save commit sentiments\", \"negative\": 0, \"compound\": 0.6597}]"
+        },
+        "http_version": null
+      },
+      "recorded_at": "Fri, 28 Dec 2018 17:55:16 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://s12bf831f0.execute-api.us-west-2.amazonaws.com/test",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"commit\":\"Refactor transmit specs.\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v0.15.3"
+          ],
+          "Content-Type": [
+            "application/json"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "content-type": [
+            "application/json"
+          ],
+          "content-length": [
+            "101"
+          ],
+          "connection": [
+            "close"
+          ],
+          "date": [
+            "Fri, 28 Dec 2018 17:55:16 GMT"
+          ],
+          "x-amzn-requestid": [
+            "bb9fb15e-0ac9-11e9-9597-c91bd94ece45"
+          ],
+          "x-amz-apigw-id": [
+            "SoR8sG3kvHcFdpw="
+          ],
+          "x-amzn-trace-id": [
+            "Root=1-5c266384-20d3c573a1e99ae5faba410f;Sampled=0"
+          ],
+          "x-cache": [
+            "Miss from cloudfront"
+          ],
+          "via": [
+            "1.1 104795f381a243817cf3c80a4bb8bb09.cloudfront.net (CloudFront)"
+          ],
+          "x-amz-cf-id": [
+            "h4lcDwKmSropPwqAqFjKjkHkNXnKlqmA7qs1fe6Kpodmk-nofJSRsQ=="
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "[{\"positive\": 0, \"neutral\": 1, \"sentence\": \"Refactor transmit specs.\", \"negative\": 0, \"compound\": 0}]"
+        },
+        "http_version": null
+      },
+      "recorded_at": "Fri, 28 Dec 2018 17:55:16 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://s12bf831f0.execute-api.us-west-2.amazonaws.com/test",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"commit\":\"Build a way to generate scores for many commits.\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v0.15.3"
+          ],
+          "Content-Type": [
+            "application/json"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "content-type": [
+            "application/json"
+          ],
+          "content-length": [
+            "138"
+          ],
+          "connection": [
+            "close"
+          ],
+          "date": [
+            "Fri, 28 Dec 2018 17:55:17 GMT"
+          ],
+          "x-amzn-requestid": [
+            "bc059f4f-0ac9-11e9-ac3d-c1f34a4f77c7"
+          ],
+          "x-amz-apigw-id": [
+            "SoR8yFk2vHcF9lg="
+          ],
+          "x-amzn-trace-id": [
+            "Root=1-5c266385-695cd2b54211e8ed61a73b6d;Sampled=0"
+          ],
+          "x-cache": [
+            "Miss from cloudfront"
+          ],
+          "via": [
+            "1.1 94302df9990bc95bcddeb66c4a58718c.cloudfront.net (CloudFront)"
+          ],
+          "x-amz-cf-id": [
+            "v0-fQttbymVIUI_m0XEFZDZWMirYmKqsjSHMLOL7NrqoynCE8RpPBA=="
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "[{\"positive\": 0.136, \"neutral\": 0.864, \"sentence\": \"Build a way to generate scores for many commits.\", \"negative\": 0, \"compound\": 0.0258}]"
+        },
+        "http_version": null
+      },
+      "recorded_at": "Fri, 28 Dec 2018 17:55:17 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://s12bf831f0.execute-api.us-west-2.amazonaws.com/test",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"commit\":\"Update gem ownership and README (#11)\\n\\n* Update gem ownership and README\\n\\n* update ownership in readme\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v0.15.3"
+          ],
+          "Content-Type": [
+            "application/json"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "content-type": [
+            "application/json"
+          ],
+          "content-length": [
+            "183"
+          ],
+          "connection": [
+            "close"
+          ],
+          "date": [
+            "Fri, 28 Dec 2018 17:55:18 GMT"
+          ],
+          "x-amzn-requestid": [
+            "bc67e3a0-0ac9-11e9-8e9e-dde4435ddef6"
+          ],
+          "x-amz-apigw-id": [
+            "SoR85EQYvHcFv3Q="
+          ],
+          "x-amzn-trace-id": [
+            "Root=1-5c266385-32071e8c66ecae5a9b698c1e;Sampled=0"
+          ],
+          "x-cache": [
+            "Miss from cloudfront"
+          ],
+          "via": [
+            "1.1 5403dac1c8184ecaec0838c37f7a4ab3.cloudfront.net (CloudFront)"
+          ],
+          "x-amz-cf-id": [
+            "zROM6KmBLgMrxOZN0IbOwN0LwuDVUJXM0xALLVB_6AxRvQZds3pZkg=="
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "[{\"positive\": 0, \"neutral\": 1, \"sentence\": \"Update gem ownership and README (#11)\\n\\n* Update gem ownership and README\\n\\n* update ownership in readme\", \"negative\": 0, \"compound\": 0}]"
+        },
+        "http_version": null
+      },
+      "recorded_at": "Fri, 28 Dec 2018 17:55:18 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://s12bf831f0.execute-api.us-west-2.amazonaws.com/test",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"commit\":\"WIP Sentiment Slayer (#9)\\n\\nSentiment analysis integration\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v0.15.3"
+          ],
+          "Content-Type": [
+            "application/json"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "content-type": [
+            "application/json"
+          ],
+          "content-length": [
+            "136"
+          ],
+          "connection": [
+            "close"
+          ],
+          "date": [
+            "Fri, 28 Dec 2018 17:55:18 GMT"
+          ],
+          "x-amzn-requestid": [
+            "bcd1a17e-0ac9-11e9-9f6b-63bc4829e0ee"
+          ],
+          "x-amz-apigw-id": [
+            "SoR9AG7KvHcF5MA="
+          ],
+          "x-amzn-trace-id": [
+            "Root=1-5c266386-166376381834627b01ddc012;Sampled=0"
+          ],
+          "x-cache": [
+            "Miss from cloudfront"
+          ],
+          "via": [
+            "1.1 df6db650c3d807e1387df2219ffb8414.cloudfront.net (CloudFront)"
+          ],
+          "x-amz-cf-id": [
+            "ZPLf7MpgTudMsBSuBzBgRR-r4jIkKhqApCYLO9CEZKkblO8M3ewkPg=="
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "[{\"positive\": 0, \"neutral\": 1, \"sentence\": \"WIP Sentiment Slayer (#9)\\n\\nSentiment analysis integration\", \"negative\": 0, \"compound\": 0}]"
+        },
+        "http_version": null
+      },
+      "recorded_at": "Fri, 28 Dec 2018 17:55:18 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://s12bf831f0.execute-api.us-west-2.amazonaws.com/test",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"commit\":\"Merge pull request #5 from larquin/project-setup\\n\\nProject setup\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v0.15.3"
+          ],
+          "Content-Type": [
+            "application/json"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "content-type": [
+            "application/json"
+          ],
+          "content-length": [
+            "142"
+          ],
+          "connection": [
+            "close"
+          ],
+          "date": [
+            "Fri, 28 Dec 2018 17:55:19 GMT"
+          ],
+          "x-amzn-requestid": [
+            "bd3bd5e7-0ac9-11e9-9af0-fbceb58c7935"
+          ],
+          "x-amz-apigw-id": [
+            "SoR9HF-tPHcFSSw="
+          ],
+          "x-amzn-trace-id": [
+            "Root=1-5c266387-1500a53c45b00af6739f32f8;Sampled=0"
+          ],
+          "x-cache": [
+            "Miss from cloudfront"
+          ],
+          "via": [
+            "1.1 5ca4a9702235f89c8172c7a83807a48d.cloudfront.net (CloudFront)"
+          ],
+          "x-amz-cf-id": [
+            "g09ih7HfwZOcQeTDaJX2D7yr9P1G4-X7lA1NkFO1m0-1Xm8tnDK-LQ=="
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "[{\"positive\": 0, \"neutral\": 1, \"sentence\": \"Merge pull request #5 from larquin/project-setup\\n\\nProject setup\", \"negative\": 0, \"compound\": 0}]"
+        },
+        "http_version": null
+      },
+      "recorded_at": "Fri, 28 Dec 2018 17:55:19 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://s12bf831f0.execute-api.us-west-2.amazonaws.com/test",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"commit\":\"add formatter for ci\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v0.15.3"
+          ],
+          "Content-Type": [
+            "application/json"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "content-type": [
+            "application/json"
+          ],
+          "content-length": [
+            "97"
+          ],
+          "connection": [
+            "close"
+          ],
+          "date": [
+            "Fri, 28 Dec 2018 17:55:20 GMT"
+          ],
+          "x-amzn-requestid": [
+            "bdae460d-0ac9-11e9-9237-4be6c22cba37"
+          ],
+          "x-amz-apigw-id": [
+            "SoR9OFOTPHcFgmQ="
+          ],
+          "x-amzn-trace-id": [
+            "Root=1-5c266387-e41347b0b5279414a2b9ff20;Sampled=0"
+          ],
+          "x-cache": [
+            "Miss from cloudfront"
+          ],
+          "via": [
+            "1.1 5426e173edd65a7a7e49d28e75692b50.cloudfront.net (CloudFront)"
+          ],
+          "x-amz-cf-id": [
+            "vn4o-RqiTxLJ5j7mWrzdsBk4yk9By_gsfgfSAbLhhl9CGDkMmn8c9g=="
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "[{\"positive\": 0, \"neutral\": 1, \"sentence\": \"add formatter for ci\", \"negative\": 0, \"compound\": 0}]"
+        },
+        "http_version": null
+      },
+      "recorded_at": "Fri, 28 Dec 2018 17:55:20 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://s12bf831f0.execute-api.us-west-2.amazonaws.com/test",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"commit\":\"add standard gem\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v0.15.3"
+          ],
+          "Content-Type": [
+            "application/json"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "content-type": [
+            "application/json"
+          ],
+          "content-length": [
+            "93"
+          ],
+          "connection": [
+            "close"
+          ],
+          "date": [
+            "Fri, 28 Dec 2018 17:55:20 GMT"
+          ],
+          "x-amzn-requestid": [
+            "be1237d1-0ac9-11e9-b421-dd37d66ec77e"
+          ],
+          "x-amz-apigw-id": [
+            "SoR9VEXFvHcFYIA="
+          ],
+          "x-amzn-trace-id": [
+            "Root=1-5c266388-b33147543562c8d410dfe604;Sampled=0"
+          ],
+          "x-cache": [
+            "Miss from cloudfront"
+          ],
+          "via": [
+            "1.1 5426e173edd65a7a7e49d28e75692b50.cloudfront.net (CloudFront)"
+          ],
+          "x-amz-cf-id": [
+            "sngdZ7g_BoSDksLIPPjZsFbCKjeZ4-vUwjbRzVuU6bSH3HlMOqtxUw=="
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "[{\"positive\": 0, \"neutral\": 1, \"sentence\": \"add standard gem\", \"negative\": 0, \"compound\": 0}]"
+        },
+        "http_version": null
+      },
+      "recorded_at": "Fri, 28 Dec 2018 17:55:20 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://s12bf831f0.execute-api.us-west-2.amazonaws.com/test",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"commit\":\"add circle badge\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v0.15.3"
+          ],
+          "Content-Type": [
+            "application/json"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "content-type": [
+            "application/json"
+          ],
+          "content-length": [
+            "93"
+          ],
+          "connection": [
+            "close"
+          ],
+          "date": [
+            "Fri, 28 Dec 2018 17:55:21 GMT"
+          ],
+          "x-amzn-requestid": [
+            "be6fe873-0ac9-11e9-84a7-37a437907f56"
+          ],
+          "x-amz-apigw-id": [
+            "SoR9bHonPHcF-bA="
+          ],
+          "x-amzn-trace-id": [
+            "Root=1-5c266389-ad9a7f20f0cb51bc14cd9444;Sampled=0"
+          ],
+          "x-cache": [
+            "Miss from cloudfront"
+          ],
+          "via": [
+            "1.1 b7bda6e7794db75fcc11fe5733aa7ccc.cloudfront.net (CloudFront)"
+          ],
+          "x-amz-cf-id": [
+            "kFejeNTknj5ubtsRzDqkrjqdez1EsIuRmnCrOypF300XS_I8C4ILeA=="
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "[{\"positive\": 0, \"neutral\": 1, \"sentence\": \"add circle badge\", \"negative\": 0, \"compound\": 0}]"
+        },
+        "http_version": null
+      },
+      "recorded_at": "Fri, 28 Dec 2018 17:55:21 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://s12bf831f0.execute-api.us-west-2.amazonaws.com/test",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"commit\":\"set up circle\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v0.15.3"
+          ],
+          "Content-Type": [
+            "application/json"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "content-type": [
+            "application/json"
+          ],
+          "content-length": [
+            "90"
+          ],
+          "connection": [
+            "close"
+          ],
+          "date": [
+            "Fri, 28 Dec 2018 17:55:22 GMT"
+          ],
+          "x-amzn-requestid": [
+            "bf143e89-0ac9-11e9-90cf-59b71c1a1de1"
+          ],
+          "x-amz-apigw-id": [
+            "SoR9mHuzvHcFcEw="
+          ],
+          "x-amzn-trace-id": [
+            "Root=1-5c26638a-cb72295272eb605c677f83c6;Sampled=0"
+          ],
+          "x-cache": [
+            "Miss from cloudfront"
+          ],
+          "via": [
+            "1.1 5ca4a9702235f89c8172c7a83807a48d.cloudfront.net (CloudFront)"
+          ],
+          "x-amz-cf-id": [
+            "fbY9r8SLpk-mA4kn3eQoOufP21VtkytmE2y-BxtqtqfkkeRDmKdpoA=="
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "[{\"positive\": 0, \"neutral\": 1, \"sentence\": \"set up circle\", \"negative\": 0, \"compound\": 0}]"
+        },
+        "http_version": null
+      },
+      "recorded_at": "Fri, 28 Dec 2018 17:55:22 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://s12bf831f0.execute-api.us-west-2.amazonaws.com/test",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"commit\":\"update PR template for wip status\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v0.15.3"
+          ],
+          "Content-Type": [
+            "application/json"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "content-type": [
+            "application/json"
+          ],
+          "content-length": [
+            "110"
+          ],
+          "connection": [
+            "close"
+          ],
+          "date": [
+            "Fri, 28 Dec 2018 17:55:23 GMT"
+          ],
+          "x-amzn-requestid": [
+            "bf9c5a39-0ac9-11e9-9d02-4b774cc142b1"
+          ],
+          "x-amz-apigw-id": [
+            "SoR9uFWMvHcF_QQ="
+          ],
+          "x-amzn-trace-id": [
+            "Root=1-5c26638b-e29869a6f4e8489dfa981b09;Sampled=0"
+          ],
+          "x-cache": [
+            "Miss from cloudfront"
+          ],
+          "via": [
+            "1.1 02400e961e7094d2c4fff83bc2205fc3.cloudfront.net (CloudFront)"
+          ],
+          "x-amz-cf-id": [
+            "vXhzPUgx8uCYo0dlVH2GkkFeVZnkc5S0xLzg2p9Rig0L1WqadSI6rQ=="
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "[{\"positive\": 0, \"neutral\": 1, \"sentence\": \"update PR template for wip status\", \"negative\": 0, \"compound\": 0}]"
+        },
+        "http_version": null
+      },
+      "recorded_at": "Fri, 28 Dec 2018 17:55:23 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://s12bf831f0.execute-api.us-west-2.amazonaws.com/test",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"commit\":\"Add PR template\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v0.15.3"
+          ],
+          "Content-Type": [
+            "application/json"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "content-type": [
+            "application/json"
+          ],
+          "content-length": [
+            "92"
+          ],
+          "connection": [
+            "close"
+          ],
+          "date": [
+            "Fri, 28 Dec 2018 17:55:24 GMT"
+          ],
+          "x-amzn-requestid": [
+            "bffa807e-0ac9-11e9-9dec-a7298640172f"
+          ],
+          "x-amz-apigw-id": [
+            "SoR91FHZPHcF4iw="
+          ],
+          "x-amzn-trace-id": [
+            "Root=1-5c26638b-3fe1a6b8fd92f3ecf5e32048;Sampled=0"
+          ],
+          "x-cache": [
+            "Miss from cloudfront"
+          ],
+          "via": [
+            "1.1 709a0516c414b1b98977ecfd0af11280.cloudfront.net (CloudFront)"
+          ],
+          "x-amz-cf-id": [
+            "lFPvyG1HR_7dBnh_sW10zzsuuO4XnY1wyqX97HLhaVY3XTecV1QySQ=="
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "[{\"positive\": 0, \"neutral\": 1, \"sentence\": \"Add PR template\", \"negative\": 0, \"compound\": 0}]"
+        },
+        "http_version": null
+      },
+      "recorded_at": "Fri, 28 Dec 2018 17:55:24 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://s12bf831f0.execute-api.us-west-2.amazonaws.com/test",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"commit\":\"setting up project\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v0.15.3"
+          ],
+          "Content-Type": [
+            "application/json"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "content-type": [
+            "application/json"
+          ],
+          "content-length": [
+            "95"
+          ],
+          "connection": [
+            "close"
+          ],
+          "date": [
+            "Fri, 28 Dec 2018 17:55:24 GMT"
+          ],
+          "x-amzn-requestid": [
+            "c05c4f5d-0ac9-11e9-8f1a-c79c762ec039"
+          ],
+          "x-amz-apigw-id": [
+            "SoR97EuyPHcFl5w="
+          ],
+          "x-amzn-trace-id": [
+            "Root=1-5c26638c-343ff7cf711b4327bc3fc799;Sampled=0"
+          ],
+          "x-cache": [
+            "Miss from cloudfront"
+          ],
+          "via": [
+            "1.1 84a93a4cc4dda36d37474901b2fb21c9.cloudfront.net (CloudFront)"
+          ],
+          "x-amz-cf-id": [
+            "l506LqFNnlbS59-lFVnkhXm3KnnYkrfNMRe7vFaNaShLi_g1Tdy6ZQ=="
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "[{\"positive\": 0, \"neutral\": 1, \"sentence\": \"setting up project\", \"negative\": 0, \"compound\": 0}]"
+        },
+        "http_version": null
+      },
+      "recorded_at": "Fri, 28 Dec 2018 17:55:24 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://s12bf831f0.execute-api.us-west-2.amazonaws.com/test",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"commit\":\"Update README.md\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v0.15.3"
+          ],
+          "Content-Type": [
+            "application/json"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "content-type": [
+            "application/json"
+          ],
+          "content-length": [
+            "93"
+          ],
+          "connection": [
+            "close"
+          ],
+          "date": [
+            "Fri, 28 Dec 2018 17:55:25 GMT"
+          ],
+          "x-amzn-requestid": [
+            "c0cebfe5-0ac9-11e9-a14c-5f637d86c807"
+          ],
+          "x-amz-apigw-id": [
+            "SoR-DGrnvHcFsCA="
+          ],
+          "x-amzn-trace-id": [
+            "Root=1-5c26638d-c370a8ee97a646e20bc4b118;Sampled=0"
+          ],
+          "x-cache": [
+            "Miss from cloudfront"
+          ],
+          "via": [
+            "1.1 17467161b347e9a9edf61422e33949d4.cloudfront.net (CloudFront)"
+          ],
+          "x-amz-cf-id": [
+            "f_s_2L_F6ulsW5ZpPOVL4wmrPYn9_EEs3bGxhGw-g-HihryLuciq6g=="
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "[{\"positive\": 0, \"neutral\": 1, \"sentence\": \"Update README.md\", \"negative\": 0, \"compound\": 0}]"
+        },
+        "http_version": null
+      },
+      "recorded_at": "Fri, 28 Dec 2018 17:55:25 GMT"
+    },
+    {
+      "request": {
+        "method": "post",
+        "uri": "https://s12bf831f0.execute-api.us-west-2.amazonaws.com/test",
+        "body": {
+          "encoding": "UTF-8",
+          "string": "{\"commit\":\"Initial commit\"}"
+        },
+        "headers": {
+          "User-Agent": [
+            "Faraday v0.15.3"
+          ],
+          "Content-Type": [
+            "application/json"
+          ]
+        }
+      },
+      "response": {
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "headers": {
+          "content-type": [
+            "application/json"
+          ],
+          "content-length": [
+            "103"
+          ],
+          "connection": [
+            "close"
+          ],
+          "date": [
+            "Fri, 28 Dec 2018 17:55:26 GMT"
+          ],
+          "x-amzn-requestid": [
+            "c1328b1e-0ac9-11e9-b1b3-df3314aafa43"
+          ],
+          "x-amz-apigw-id": [
+            "SoR-JFzEPHcFb2g="
+          ],
+          "x-amzn-trace-id": [
+            "Root=1-5c26638d-0f216bc92844716c38b79f5f;Sampled=0"
+          ],
+          "x-cache": [
+            "Miss from cloudfront"
+          ],
+          "via": [
+            "1.1 5ca4a9702235f89c8172c7a83807a48d.cloudfront.net (CloudFront)"
+          ],
+          "x-amz-cf-id": [
+            "EWiskbVMOeI6KmC5QX_tEF9R3IhtJmtr0z1rfj--MBIh3mtrD3Ru5Q=="
+          ]
+        },
+        "body": {
+          "encoding": "UTF-8",
+          "string": "[{\"positive\": 0.688, \"neutral\": 0.313, \"sentence\": \"Initial commit\", \"negative\": 0, \"compound\": 0.296}]"
+        },
+        "http_version": null
+      },
+      "recorded_at": "Fri, 28 Dec 2018 17:55:26 GMT"
+    }
+  ],
+  "recorded_with": "VCR 4.0.0"
+}
