@@ -17,7 +17,6 @@ RSpec.describe Satisfaction::Client do
 
   it "transmits sentiments", :vcr do
     result = subject.sentiments
-    expect(result.length).to eq(15)
     result.each do |r|
       expect(r[:score][:status_code]).to eq(200)
       expect(r[:score]).to have_key(:body)
