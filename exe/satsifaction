@@ -1,8 +1,9 @@
 #!/usr/bin/env ruby
 
 require "rubygems"
-lib = File.join(__dir__, "../lib")
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "satisfaction"
 
-puts lib
+lib = File.join(__dir__, "../lib")
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+
+Satisfaction::CLI.start(ARGV)
