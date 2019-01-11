@@ -1,5 +1,6 @@
 require "satisfaction/cli"
 require "satisfaction/client"
+require "satisfaction/configuration"
 require "satisfaction/version"
 require "satisfaction/transmit"
 require "satisfaction/schema"
